@@ -1,0 +1,25 @@
+// customize bootstrap variables here:
+@import "variables";
+@import "bootstrap";
+
+
+//Below is just to get you going can be removed if needs be!
+$grey:#c1c1c1;
+$white:#ffffff;
+$red:red;
+
+body{
+	background-color: $white;
+}
+.container{
+	color:$red;
+	font:{
+		size:30px;
+	}
+}
+
+*{padding:0; margin:0;}
+ul li {float:left; list-style:none; position:relative; }
+ul li a.next {position:absolute; left:100px;}
+ul li a.previous{position:absolute; left:0px;}
+ul li a.startover{position:absolute; left:100px;}
